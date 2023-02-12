@@ -1,0 +1,15 @@
+{
+	"permissions":{
+		"Admin": [<QQID>], #填写数组类型的管理员QQ号
+		"Users": ["Default"],
+		"Experimental": [<QQID>], #填写数组类型的可用yolov5功能的QQ号
+		"Ban": [<QQID>], #填写数组类型的被封禁的QQ号
+		"Bot":[2854196310] #填写数组类型的机器人QQ号
+	},
+	"config":{
+		"yolov5_path":"~\\yolov5", #填写yolov5路径
+		"QQImgDownload":"~\\HuayuChatting-Bot\\core\\yolov5_img",  #填写yolov5下载图片路径
+		"go-cqhttp_image_path":"~\\bot\\data\\images", #填写你cqhttp的images路径
+		"botQID":<QQID> #填写机器人的QQ号
+	}
+}
